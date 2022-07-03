@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+    <body>
+        <div id="container">
+            <div class="controls">
+                <h1>My Awesome TODO</h1>
+                <input type="text" id="input"><br>
+                <button type="button" id="add">Add</button>
+                 <button type="button" id="remove">Remove</button>
+                 <button type="button" id="remove1">Remove All</button>
+            </div>
+            <ul id="list">
+                <li class="mycheck"><input type="checkbox" id="check"><label>Hello Let's Grow More</label></li>
+                 <li class="mycheck"><input type="checkbox" id="check" checked><label>Welcome to my todo app</label></li>
+            </ul>
+        </div>
+    </body>
+</html>
