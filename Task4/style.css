@@ -1,0 +1,50 @@
+* {
+    font-family:"Courier New", Courier, monospace;
+    margin:0;
+}
+
+body {
+    background-color:#111;
+    color:#fff;
+}
+
+.container {
+    width:100vw;
+    height:100vh;
+    min-width:300px;
+    min-height:400px;
+}
+
+input {
+    box-sizing:border-box;
+    width:100%;
+    height:20vh;
+    margin:0px;
+    padding: 1em;
+    border:none;
+    color:#fff;
+    background:#111;
+    border-bottom:2px solid #FFF;
+    text-align:right;
+    letter-spacing:3px;
+    font-size: 2.3em;
+    outline:none;
+    font-weight:100;
+}
+
+table {
+    width:100%;
+    height:450px;
+    min-width:300px;
+    min-height:300px;
+    background:#111;
+}
+button {
+    width:100%;
+    height:100%;
+    font-size:1.5em;
+    border:none;
+    background:transparent;
+    color:#fff;
+    outline-color:rgba(200, 200, 200);
+}
